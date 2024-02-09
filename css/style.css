@@ -1,3 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@media screen and (max-width: 450px){
+    .contenedor{
+        max-width: 100%;
+        height: auto;
+        text-align: center;
+    }
+    
+    .imagen{
+        max-width: 100%;
+        height: auto;
+    }
+}
+
 .contenedor{
     max-width: 100%;
     height: auto;
