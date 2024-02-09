@@ -27,3 +27,51 @@
     max-width: 100%;
     height: auto;
 }
+
+.contenedor-flex{
+    display: flex;
+    justify-content: center;/*Justificado horizontal*/
+    align-items: center;/*Justificado vertical*/
+    height: 200px;
+    background-color: #FFF;
+}
+
+.elemento{
+    width: 200px;
+    height: 100px;
+    background-color: #e6ecce;
+    text-align: center;
+    line-height: 15px;
+    margin: 10px;
+}
+
+.contenedor-grid{
+    display: grid;
+    place-items: center;
+    background-color: #e9acd0;
+}
+
+.countdown{
+    display: flex;
+    justify-content: space-evenly;
+    width: 50%;
+    flex-wrap: wrap;
+}
+
+.contador{
+    text-align: center;
+    margin: 1em;;
+}
+
+.final-sms{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    display: grid;
+    place-items: center;
+    transform: translateY(-100%);
+    transition: ease-in-out 0.5s;
+    background-color: #d2de99;
+}
