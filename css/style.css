@@ -38,12 +38,15 @@
 
 .elemento{
     width: 200px;
-    height: 100px;
-    background-color: #e6ecce;
+    height: auto;
+    background-color: #fefefe;
     text-align: center;
+    align-items: center;/*Justificado vertical*/
+    place-items: center;
     line-height: 15px;
     margin: 10px;
 }
+
 
 .contenedor-grid{
     display: grid;
@@ -60,7 +63,7 @@
 
 .contador{
     text-align: center;
-    margin: 1em;;
+    margin: 1em;
 }
 
 .final-sms{
@@ -74,4 +77,36 @@
     transform: translateY(-100%);
     transition: ease-in-out 0.5s;
     background-color: #d2de99;
+}
+
+.itinerario-grid{
+    display: grid;
+    place-items: center;
+}
+
+.itinerario-item{
+    width: 30%;
+    height: auto;
+}
+
+.sugerencias{
+    margin: 2em;
+    padding: 2em;
+    background-color: #4fe8ff;
+}
+
+.sugerencias h3{
+    margin: 1em;
+    padding: auto;
+}
+
+.regalos{
+    margin: 2em;
+    padding: 2em;
+    background-color: #e9acd0;
+}
+
+.regalos h3{
+    margin: 1em;
+    padding: auto;
 }
