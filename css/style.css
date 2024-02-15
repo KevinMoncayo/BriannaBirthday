@@ -2,6 +2,10 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Caveat", cursive;
+    font-optical-sizing:auto;
+    font-weight: <weight>;
+    font-style: normal;
 }
 
 @media screen and (max-width: 450px){
@@ -34,6 +38,16 @@
     align-items: center;/*Justificado vertical*/
     height: 200px;
     background-color: #FFF;
+}
+
+.elemento h2{
+    font-family: "Honk", system-ui;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-variation-settings:
+    "MORF" 15,
+    "SHLN" 50;
 }
 
 .elemento{
