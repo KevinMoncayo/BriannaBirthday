@@ -85,8 +85,13 @@
 }
 
 .itinerario-item{
-    width: 30%;
+    width: 80%;
     height: auto;
+}
+
+.itinerario-item h2{
+    text-align: center;
+    margin: 1em;
 }
 
 .sugerencias{
