@@ -2,10 +2,17 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Caveat", cursive;
+    
+    /*font-family: "Caveat", cursive;
     font-optical-sizing:auto;
     font-weight:600;
+    font-style: normal;*/
+
+    font-family: "Indie Flower", cursive;
+    font-weight: 400;
     font-style: normal;
+    
+    font-size:large
 }
 
 @media screen and (max-width: 450px){
@@ -36,18 +43,24 @@
     display: flex;
     justify-content: center;/*Justificado horizontal*/
     align-items: center;/*Justificado vertical*/
-    height: 200px;
+    height: auto;
     background-color: #FFF;
 }
 
 .elemento h2{
-    font-family: "Honk", system-ui;
+    /*font-family: "Honk", system-ui;
     font-optical-sizing: auto;
     font-weight: 700;
     font-style: normal;
     font-variation-settings:
     "MORF" 15,
-    "SHLN" 50;
+    "SHLN" 50;*/
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-size: xx-large;
+    color:#cf328d
 }
 
 .elemento{
